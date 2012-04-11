@@ -1,0 +1,6 @@
+SimpleASNLG
+
+Converted from SimpleNLG from the University of Aberdeen's Department of Computing Science
+http://code.google.com/p/simplenlg/
+
+There are a few changes to the API, because of the differences between Java and Actionscript. The main one is that there is no method overloading, so overloaded methods are replaced with separate methods. For example "createSentence" also has "createCannedSentence" when using a string. Many methods also have xxxAsString and xxxAsElement etc. Another difference is that when creating noun phrases the value and the specifier are reversed.
